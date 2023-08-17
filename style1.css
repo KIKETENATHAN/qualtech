@@ -165,20 +165,34 @@ img {vertical-align: stretch;}
   .card {
     margin: 5px;
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
     border-radius: 10px;
     box-shadow: 0 12px 8px 0 #f3d849;
     overflow: hidden;
     background-color:whitesmoke;
     
   }
-  
+  .card2 {
+    margin: 5px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 0px;
+    box-shadow: 0 12px 8px 0 #f3d849;
+    overflow: hidden;
+    background-color:whitesmoke;
+    
+  }
   .card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px 0 #0a62d0;
   }
   
   .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  .card2 img {
     width: 100%;
     height: auto;
     border-radius: 10px 10px 0 0;
