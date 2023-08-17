@@ -165,7 +165,7 @@ img {vertical-align: stretch;}
   .card {
     margin: 5px;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     border-radius: 10px;
     box-shadow: 0 12px 8px 0 #f3d849;
     overflow: hidden;
