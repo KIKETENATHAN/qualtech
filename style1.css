@@ -307,7 +307,7 @@ footer{
   background-image: url('images/bd.jpg');
   background-size:cover;
   background-position: center;
-  height: 500px; /* Adjust the height as needed */
+  height: 340px; /* Adjust the height as needed */
   margin-top: 8%;
 }
 .image-overlay {
