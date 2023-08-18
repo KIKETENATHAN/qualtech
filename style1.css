@@ -255,8 +255,8 @@ footer{
 /*image with words in background*/
 .image-section {
   position: relative;
-  background-image: url('images/slab .jpg');
-  background-size: auto;
+  background-image: url('images/bg.jpg');
+  background-size:contain;
   background-position: center;
   height: 500px; /* Adjust the height as needed */
   margin-top: 8%;
