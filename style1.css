@@ -286,7 +286,30 @@ footer{
   height: 500px; /* Adjust the height as needed */
   margin-top: 8%;
 }
-
+.image-section1 {
+  position: relative;
+  background-image: url('images/bg1.jpg');
+  background-size:cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  margin-top: 8%;
+}
+.image-section2 {
+  position: relative;
+  background-image: url('images/bg2.jpg');
+  background-size:cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  margin-top: 8%;
+}
+.image-section3 {
+  position: relative;
+  background-image: url('images/bd.jpg');
+  background-size:cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  margin-top: 8%;
+}
 .image-overlay {
   position: absolute;
   top: 0;
