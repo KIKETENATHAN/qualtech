@@ -4,6 +4,7 @@
   overflow: hidden;
   width:100%;
 }
+/*navigation bar*/
  .navbar {
     display: flex;
     justify-content: flex-end;
@@ -68,6 +69,30 @@
     flex-basis: 50%;
     text-align: center;
   }
+  /*end of navigation bar*/
+  /*Rotating image*/
+  .container0 {
+    display: flex;
+    justify-content:left;
+    align-items:left;
+    height: 100px;
+  }
+  
+  #rotating-image {
+    width: 70px;
+    height: 70px;
+    animation: rotate 5s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }  
+/*end of rotating image*/
 /* Styles for small devices */
 @media (max-width: 480px) {
   .nav-item {

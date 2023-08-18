@@ -64,4 +64,17 @@ toggleNavDots();
   
   // Update time and date every second (1000 milliseconds)
   setInterval(updateDateTime, 1000);
+// JavaScript is not necessary for the rotation animation, but you can use it to control the animation dynamically if needed.
+// For example, you could pause or resume the animation based on user interactions.
+
+// Here's an example of how you might pause and resume the animation using JavaScript:
+const rotatingImage = document.getElementById('rotating-image');
+
+rotatingImage.addEventListener('click', () => {
+  if (rotatingImage.style.animationPlayState === 'paused') {
+    rotatingImage.style.animationPlayState = 'running';
+  } else {
+    rotatingImage.style.animationPlayState = 'paused';
+  }
+});
 
