@@ -114,7 +114,7 @@ img {vertical-align: stretch;}
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: orange;
+  color: #ffd5a4;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -126,14 +126,14 @@ img {vertical-align: stretch;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #f3d849;
+  background-color: #ffd5a4;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.5s ease;
   cursor: pointer;
 }
 .active {
-  background-color: navy;
+  background-color: brown;
 }
 /* Fading animation */
 .fade {
@@ -169,7 +169,7 @@ img {vertical-align: stretch;}
     border-radius: 10px;
     box-shadow: 0 12px 8px 0 #f3d849;
     overflow: hidden;
-    background-color:#f1ae7f;
+    background-color:#ffd5a4;
     
   }
   .card2 {
