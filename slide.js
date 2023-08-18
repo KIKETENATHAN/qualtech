@@ -35,3 +35,33 @@ window.addEventListener('resize', toggleNavDots);
 
 // Call the toggleNavDots function initially
 toggleNavDots();
+
+  // Function to update time and date
+  function updateDateTime() {
+    const now = new Date();
+    const datetimeElement = document.getElementById('datetime');
+    
+    // Format the date and time
+    const options = { 
+      weekday: 'long', 
+      year: 'numeric', 
+      month: 'long', 
+      day: 'numeric', 
+      hour: 'numeric', 
+      minute: 'numeric', 
+      second: 'numeric', 
+      timeZoneName: 'short' 
+    };
+    
+    const formattedDateTime = now.toLocaleDateString('en-US', options);
+    
+    // Update the content of the HTML element
+    datetimeElement.textContent = formattedDateTime;
+  }
+  
+  // Call the function to initially set the time and date
+  updateDateTime();
+  
+  // Update time and date every second (1000 milliseconds)
+  setInterval(updateDateTime, 1000);
+
